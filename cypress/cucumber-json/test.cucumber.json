@@ -1,0 +1,68 @@
+[
+  {
+    "description": "  I want to open a search engine",
+    "keyword": "Feature",
+    "name": "Todo page test",
+    "line": 1,
+    "id": "todo-page-test",
+    "tags": [],
+    "uri": "test.feature",
+    "elements": [
+      {
+        "id": "todo-page-test;opening-a-search-engine-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Opening a search engine page",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open home page",
+            "result": {
+              "status": "passed",
+              "duration": 383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I submit a todo item called \"New item\"",
+            "result": {
+              "status": "passed",
+              "duration": 287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I see \"Todo\" in the title",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "todo item should be submitted",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

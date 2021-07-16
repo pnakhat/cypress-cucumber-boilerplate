@@ -1,0 +1,9 @@
+{
+    "projectId":"gzngwa",
+    "testFiles": "**/*.feature",
+    "baseUrl":"http://46.101.26.108:8888/",
+    "reporter": "cypress-serenity-reporter"
+
+
+
+}
