@@ -1,7 +1,8 @@
 node_modules/
-allure_report/
-allure_results/
+allure_report/*
+allure_results/*
 cypress/screenshots/
 cypress/videos/
 cypress/video/
+cypress/cucumber-json/
 .DS_Store
